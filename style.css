@@ -1,0 +1,116 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ffffff;
+    line-height: 60px;
+    display: grid;
+    justify-content: right;
+}
+.header ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.header ul li {
+    float: left;
+}
+.header ul li a {
+    color: #666666;
+    display: block;
+    text-align: center;
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.image {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+img {
+    padding-top: 105px;
+    padding-bottom: 30px;
+}
+.search {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.search input {
+    outline: 0;
+    width: 580px;
+    height: 40px;
+    border-radius: 18px;
+    border: 1px solid rgb(218, 216, 216);
+    margin-bottom: 30px;
+}
+.search button {
+    opacity: 0.85;
+    width: 140px;
+    height: 40px;
+    background: #f3f3f3;
+    margin-right: 30px;
+    border-radius: 3px;
+    border: 1px solid #dfdede;
+    outline: 0;
+}
+.search button:hover {
+    opacity: 1;
+    border: 1px solid rgb(180, 180, 180);
+    font-weight: bold;
+    box-shadow: 2px 2px #f3f3f3;
+}
+.search p {
+    color: #2b2a2a;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.search p a {
+    text-decoration: none;
+}
+.search {
+    margin-bottom: 53px;
+}
+.palestine, .last {
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e9e6e6;
+    line-height: 45px;
+    color: #6f6f6f;
+}
+.palestine p {
+    padding-left: 30px; 
+}
+.last ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.last ul li {
+    float: left;
+    margin-right: 12px;
+}
+.last ul li a {
+    text-decoration: none;
+    color: #6f6f6f;
+}
+.nav-bar {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
